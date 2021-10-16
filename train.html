@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        train page
+
+    </title>
+    <link rel='stylesheet' href='train.css'>
+</head>
+
+<body id="ticketPage">
+    <div class="main">
+        <form>
+            <!--Name-->
+            <label>YOUR NAME</label>
+            <br><br>
+           
+            <input id="nm" type="text" name="your name"placeholder="Enter Your Name">
+           <br><br> 
+           <!--Num-->
+            <label>YOUR NUMBER</label>
+            <br><br>
+            <input id="num" type="text" name="phone numberuh" value="+2 01">
+           <br><br>
+           <!--Location-->
+            <label>YOUR LOCATION</label>
+            <br><br>
+            <select  id="loc">
+                <option> Cairo</option>
+                <option>Mansoura</option>
+                <option>Alexandria</option>
+            </select>
+           <br><br>
+           <!--DEst-->
+            <label>YOUR DESTINATION</label>
+            <br><br>
+            <select id="dest">
+                <option>Mansoura</option>
+                <option>Alexandria</option>
+                <option> Cairo</option>
+            </select>
+            <br><br>
+            <!--DAte-->
+            <label>Date Of Trip</label>
+            <br><br>
+            
+            <input id="date" class="DOT"  type="date" name="date of trip">
+            <br><br> 
+            <!---->
+           <label>TRIP TYPE</label>
+            <br><br>
+            <select id="triptype">
+                <option>Single Trip</option>
+                <option>Round Trip</option>
+            </select>
+        
+            <br><br> 
+            <!---->
+            &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;
+            <input id="btn1" class="btn1" type="button" name="Buy Ticket" value="Buy Ticket" onclick="buy()">
+            &nbsp; &nbsp; &nbsp;
+            <!---->
+           
+            <input id="btn2" class="btn2" type="button" name="Check Price" value="Check Price" onclick="check()">
+            <br><br>
+            <!---->
+        </form>   
+    </div>
+    
+   
+
+    <script src="train.js"></script>
+</body>
+
+</html>

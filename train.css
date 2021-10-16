@@ -1,0 +1,118 @@
+*{
+    /** margin: 0;**/
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ body{
+    opacity: 100;
+     background-image: url(2.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ .main{
+     opacity: 0.9;
+  color:rgb(24, 22, 22);
+  margin:70px auto;  
+  width: 1000px;
+  height: 580px;
+  background-image: url(train.png);
+  background-size: 55% 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(247, 247, 247);
+ }
+form{
+    
+    padding-top: 30px;
+    float: right;
+    color: black;
+ width: 440px; 
+  }
+  label{
+      margin-bottom: 5px;
+      padding-top:3px;
+      font-size:medium;
+      color: rgb(180, 180, 180);
+  }
+  input{ 
+      width: 100%;
+      font-size:large;
+      width: 400px;
+      background-color: rgb(247, 247, 247);
+      border-right:  1px solid rgb(253, 242, 242);
+      border-left: 1px solid   rgb(253, 242, 242);
+      border-top: 1px solid    rgb(253, 242, 242);
+      border-bottom: 1px solid rgb(94,38 , 0)
+  }
+  select
+  {
+    width: 100%;
+    font-size:large;
+    width: 400px;
+    background-color: rgb(247, 247, 247);
+    border-right:  1px solid rgb(253, 242, 242);
+    border-left: 1px solid   rgb(253, 242, 242);
+    border-top: 1px solid    rgb(253, 242, 242);
+    border-bottom: 1px solid rgb(94,38 , 0);
+}
+  
+.DOT
+    {
+        width: 100%;
+        font-size:medium;
+        width: 400px;
+        background-color: rgb(247, 247, 247);
+        border-right:  1px solid rgb(253, 242, 242);
+        border-left: 1px solid   rgb(253, 242, 242);
+        border-top: 1px solid    rgb(253, 242, 242);
+        border-bottom: 1px solid rgb(94,38 , 0);
+    }  
+.R,.S{
+
+      margin-top: 5px;
+   /* width: 100%;*/
+      font-size:large;
+      width: 20px;
+      background-color: rgb(247, 247, 247);
+      border-right:  1px solid rgb(253, 242, 242);
+      border-left: 1px solid   rgb(253, 242, 242);
+      border-top: 1px solid    rgb(253, 242, 242);
+      border-bottom: 1px solid rgb(94,38 , 0);
+  }
+
+.btn1{
+    box-shadow: 0px 5px 5px rgb(223, 221, 221);
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid rgb(196,79 , 0);
+    background-color: rgb(196,79 , 0);
+    color:rgb(245, 245, 245);
+    border-radius: 30px;
+    padding-bottom: 4px;
+}
+.btn2{
+    box-shadow: 0px 5px 5px rgb(223, 221, 221);
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid rgb(196,79 , 0);
+    background-color:rgb(245, 245, 245); 
+    color:rgb(196, 79, 0);
+    border-radius: 30px;
+    padding-bottom: 4px;
+}
+span{
+    font-size: 20px;
+    color: rgb(196, 79, 0);
+    padding-left: 160px;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
